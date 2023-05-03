@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--  -->
+    <label for="name-input">Enter your name:</label>
+    <input type="text" id="name-input" />
+    <div id="my-div">
+      <button id="my-button">Confirm your name</button>
+    </div>
+    <p id="greeting">Hello, stranger!</p>
+    <hr />
+    <form>
+      <!-- fieldset/legend -->
+      <fieldset>
+        <legend>Form</legend>
+        <!-- input type:checkbox -->
+        <input type="checkbox" id="vehicle1" />
+        <label for="vehicle1">I have a bike</label>
+        <input type="checkbox" id="vehicle2" checked />
+        <label for="vehicle2">I have a car</label>
+        <input type="checkbox" id="vehicle3" />
+        <label for="vehicle3">I have a boat</label>
+        <hr />
+
+        <!-- datalist -->
+        <label for="browser">Choose a browser from the list:</label>
+        <input list="browsers" id="browser" />
+
+        <datalist id="browsers">
+          <option value="Edge"></option>
+          <option value="Firefox"></option>
+          <option value="Chrome"></option>
+          <option value="Opera"></option>
+          <option value="Safari"></option>
+        </datalist>
+
+        <hr />
+        <!-- input type:submit -->
+        <input type="Submit" />
+        <a href="" target="_blank"></a>
+      </fieldset>
+    </form>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
